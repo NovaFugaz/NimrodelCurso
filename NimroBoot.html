@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimrodel Pub Restaurant</title>
+    <link rel="icon" type="image/x-icon" href=".\assets\images\favicon.ico">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<!-- NavBar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src=".\assets\images\n.png" alt="Logo" width="75" height="75"></a>
+        <button class="navbar-toggler" style="margin-right:5px !important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse top_nav" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto dropcol">
+              <li class="nav-item"><a href="#" class="nav-link">Nuestros Productos</a>
+              </li>
+              <li class="nav-item "><a href="#" class="nav-link">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item " id="clcom"><a href="#Comuniquémonos" class="nav-link">Comuniquémonos</a>
+              </li>
+              <li class="nav-item " id="rres"><a href="#Reserva" class="nav-link">Reserva</a>
+              </li>
+              </ul>
+              <ul class="navbar navbar-nav navbar-right" style="display:flex;">
+              <li>
+        </div>
+    </div>
+</nav>
+
+<!-- Título y Bajada -->    
+<div class="container">
+<div class="titcent mt-3">
+    <h1 class="tlbg justify-content-center" id="titulo"> Nimrodel Pub Restaurant</h1><br>
+    <h2 id="lead" class="justify-content-center mb-5"> Destacados de la semana </h2><br>
+</div>
+</div>
+<!-- Cards de imágenes -->    
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <img src=".\assets\images\bebidas.jpg" class="card-img-top" alt="Gaseosas" data-toggle="modal" data-target="#modal1" data-modal="modal1">
+                <div class="card-body text-center">
+                <h5 class="card-title mx-3">GASEOSAS</h5>
+                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card">
+                <img src=".\assets\images\tablas.jpg" class="card-img-top" alt="Gaseosas" data-toggle="modal" data-target="#modal2" data-modal="modal2">
+                <div class="card-body text-center">
+                <h5 class="card-title mx-3">TABLAS</h5>
+                <p class="card-block text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card">
+                <img src=".\assets\images\shop.jpeg" class="card-img-top" alt="Gaseosas" data-toggle="modal" data-target="#modal3" data-modal="modal3">
+                <div class="card-body text-center">
+                <h5 class="card-title mx-3">SCHOP CERVEZA</h5>
+                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+<!-- Modal for Gaseosas -->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" id="cerrarbtn">X</span>
+      </button>
+      <div class="modal-body">
+        <img src="" class="img-fluid" alt="">
+        <h5 class="modal-title mx-3 mt-3 text-center">GASEOSAS</h5>
+        <p class="modal-text mx-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Tablas -->
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" id="cerrarbtn">X</span>
+      </button>
+      <div class="modal-body">
+        <img src="" class="img-fluid" alt="">
+        <h5 class="modal-title mx-3 mt-3 text-center">TABLAS</h5>
+        <p class="modal-text mx-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Schop Cerveza -->
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true" id="cerrarbtn">X</span>
+      </button>
+      <div class="modal-body">
+        <img src="" class="img-fluid" alt="">
+        <h5 class="modal-title mx-3 mt-3 text-center">SCHOP CERVEZA</h5>
+        <p class="modal-text mx-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Forma 1 Comuniquémonos-->
+
+<div class="container d-none d-lg-block mt-5 pt-2 mb-3 gb-5 d-flex flex-column justify-content-center bg-dark text-light" id="Comuniquémonos">
+        
+    <h2 class="d-flex justify-content-center m-3">Comuniquémonos</h2>
+    <form>
+      <div class="mb-3">
+        <label for="Nombre" class="form-label d-flex justify-content-center mt-1">Nombre</label>
+        <input type="text" id="Nombre" class="form-control" placeholder="María Vargas">
+      </div>
+      <div class="mb-3">
+        <label for="Correo" class="form-label d-flex justify-content-center mt-1">Correo</label>
+        <input type="text" id="Correo" class="form-control" placeholder="correo@correo.com">
+      </div>
+      <div class="mb-3">
+        <label for="Teléfono" class="form-label d-flex justify-content-center mt-1">Teléfono</label>
+        <input type="text" id="Teléfono" class="form-control" placeholder="912345678">
+      </div>
+      <div class="mb-3">
+        <label for="Teléfono" class="form-label d-flex justify-content-center mt-1">Motivo</label>
+        <select class="form-select" aria-label="Formulario" id="motivo">
+          <!-- Yo pensaba que esto era un menú de selección y no una cajita de input, como sea, igual funciona el código y la función de js -->
+            <option disabled="disabled" selected class="Disabled">Seleccione</option> 
+            <option value="felicitación">Felicitación</option>
+            <option value="reclamo">Reclamo</option>
+            <option value="consulta">Consulta</option>
+            <option value="sugerencia">Sugerencia</option>
+          </select>
+      </div>
+      <div class="mb-3">
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Deje su comentario aquí" id="Cajita"></textarea>
+          </div>
+     </div>
+      <div class="mb-3">
+      <button><a class="btn btn-primary mb-3" type="submit" href="#" id="btn-com" role="button" onclick="msjcom()">Enviar</a></button>
+     </div>
+    </form>
+</div>
+
+<!-- Forma 2 Reserva -->
+<form>
+<div class="container d-none d-lg-block mt-5 pt-2 mb-3 gb-5 d-flex flex-column justify-content-center bg-dark text-light" id="Reserva">
+    <h2 class="d-flex justify-content-center m-3">Reserva</h2>
+    <div class="mb-3">
+        <label for="Nombre1" class="form-label d-flex justify-content-center mt-1">Nombre</label>
+        <input type="text" id="Nombre1" class="form-control" placeholder="María Vargas">
+      </div>
+      <div class="mb-3">
+        <label for="Correo1" class="form-label d-flex justify-content-center mt-1">Correo</label>
+        <input type="text" id="Correo1" class="form-control" placeholder="correo@correo.com">
+      </div>
+      <div class="mb-3">
+        <label for="Teléfono1" class="form-label d-flex justify-content-center mt-1">Teléfono</label>
+        <input type="text" id="Teléfono1" class="form-control" placeholder="912345678">
+      </div>
+      <div class="mb-3">
+        <label for="Fecha" class="form-label d-flex justify-content-center mt-1">Fecha</label>
+        <input type="date" id="Fecha" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label for="Hora" class="form-label d-flex justify-content-center mt-1">Hora</label>
+        <input type="time" id="Hora" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label for="Asistentes" class="form-label d-flex justify-content-center mt-1">Cantidad de Asistentes</label>
+        <input type="text" id="Asistentes" class="form-control" placeholder="Entre 1 y 99">
+      </div>
+      <div class="mb-3">
+        <button><a class="btn btn-primary mb-3" type="" href="#" id="btn-com" role="button" onclick="msjres()">Reservar</a></button>
+    </div>
+</div>
+</form>
+
+<!-- Carrusel -->
+
+<div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./assets/images/chorillana.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./assets/images/mojito.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/vino.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+<footer>  
+<p class="cpy">Todos los derechos reservados ©</p> 
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+<script src="./assets/js/jquerymodal.js"></script>
+<script src="./assets/js/jqueryreserva.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</body>
+</html>

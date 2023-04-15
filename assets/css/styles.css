@@ -93,3 +93,8 @@ footer {
     footer {height: 200px;}
     .dropcol {background-color: black;}
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: red;
+}

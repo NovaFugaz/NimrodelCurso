@@ -94,7 +94,23 @@ footer {
     .dropcol {background-color: black;}
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  color: red;
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, 0.1);
+    
+  }
+
+#imgnim1 {
+    height: 300px;
+    width: 402px;
 }
+
+#carsnimro .carousel-item {
+    margin-bottom: 50px; /* Aplica un margen inferior de 50px a cada elemento del carrusel */
+  }
+  
+  #carsnimro .carousel-item img,
+  #carsnimro .carousel-item p {
+    max-width: 100%;
+    height: auto;
+    margin: auto; /* Centra los elementos horizontalmente */
+  }
